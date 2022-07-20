@@ -8,7 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          persist-credentials: false
           token: ${{ secrets.repo_pat }}
       - name: Create version bump commit
         if: github.event.pull_request.merged == true && github.ref == 'develop'
