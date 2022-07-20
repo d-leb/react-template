@@ -19,8 +19,8 @@ jobs:
       - name: Create version bump commit
         if: github.event.pull_request.merged == true && github.ref == 'develop'
         run: |
-          git config user.name 'github-actions'
-          git config user.email 'github-actions@github.com'
+          git config user.name 'd-leb[bot]'
+          git config user.email 'github@david-leblanc.com'
           git checkout develop
           OLD_VERSION="$(grep \"version\": package.json | cut -d'"' -f4)"
           MAJOR_RELEASE="$(echo "$OLD_VERSION" | cut -d'.' -f1)"
