@@ -48,7 +48,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 - **David LeBlanc** - _Initial work_ - [d-leb](https://github.com/d-leb)
 
-See also the list of [contributors](https://github.com/d-leb/preact-template) who participated in this project.
+See also the list of [contributors](https://github.com/d-leb/preact-template/graphs/contributors) who participated in this project.
 
 ## License
 
