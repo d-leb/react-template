@@ -6,6 +6,10 @@
   "license": "MIT",
   "repository": "git@github.com:d-leb/preact-template",
   "packageManager": "yarn@3.2.1",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/start.mjs"
+  },
   "devDependencies": {
     "compression-webpack-plugin": "^10.0.0",
     "html-webpack-plugin": "^5.5.0",
