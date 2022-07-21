@@ -11,10 +11,12 @@
     "eslint": "eslint --ext ts,tsx src --max-warnings=0",
     "eslint:fix": "eslint --ext ts,tsx src --fix",
     "lint": "yarn eslint",
-    "review": "yarn lint",
+    "review": "yarn lint && yarn test && yarn build",
     "prettier": "prettier --check 'src/**/*.{ts,tsx,js,jsx}'",
     "prettier:fix": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'",
-    "start": "node scripts/start.mjs"
+    "start": "node scripts/start.mjs",
+    "test": "yarn tsc",
+    "tsc": "tsc"
   },
   "devDependencies": {
     "@swc/core": "^1.2.218",

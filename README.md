@@ -79,6 +79,20 @@ If issues are found, you may try to automatically correct the issues.
 yarn prettier:fix
 ```
 
+### Test coverage (Integration and Unit)
+
+All tests can be run using the test script.
+
+```
+yarn test
+```
+
+You can manually check TypeScript types and syntax.
+
+```
+yarn tsc
+```
+
 ## Deployment
 
 A complete build will be generated and placed in the ***build*** folder.
