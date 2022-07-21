@@ -30,6 +30,12 @@ nvm use
 npm install -g npm
 ```
 
+Setup package dependencies.
+
+```
+yarn install
+```
+
 Install recommended extensions for VSCode. The project workspace settings are already pre-configured.
 
 Development environment can now be started.
