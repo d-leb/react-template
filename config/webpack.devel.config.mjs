@@ -9,27 +9,27 @@ export const buildWebpackConfig = (paths) => {
     entry: [...webpackBaseConfig.entry],
     output: {
       ...webpackBaseConfig.output,
-      publicPath: '/'
+      publicPath: '/',
     },
     resolve: {
       ...webpackBaseConfig.resolve,
       alias: {
         ...webpackBaseConfig.resolve.alias,
-      }
+      },
     },
     stats: 'errors-warnings',
     devServer: {
       client: {
         overlay: {
           errors: true,
-          warnings: true
-        }
+          warnings: true,
+        },
       },
       historyApiFallback: true,
       host: 'localhost',
       hot: true,
       port: 3000,
-      open: true
-    }
+      open: true,
+    },
   }
 }

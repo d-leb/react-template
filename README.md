@@ -101,6 +101,14 @@ You can manually check TypeScript types and syntax.
 yarn tsc
 ```
 
+### Bundle and Chunk management
+
+Chunk and module sizes and entry points can be examined.
+
+```
+yarn analyze
+```
+
 ## Deployment
 
 A complete build will be generated and placed in the ***build*** folder.

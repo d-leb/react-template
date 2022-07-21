@@ -1,26 +1,23 @@
 import ora from 'ora'
 import rm from 'rimraf'
 import webpack from 'webpack'
-import webpackDevServer from 'webpack-dev-server'
 
 import { paths } from './utils.mjs'
-import { buildWebpackConfig } from '../config/webpack.devel.config.mjs'
+import { buildWebpackAnalyzeConfig } from '../config/webpack.analyze.config.mjs'
 
-console.clear()
 console.log('Begin build...')
 
-const spinner = ora('Building for development...\n')
+const spinner = ora('Building for analysis...\n')
 spinner.start()
 
-const webpackConfig = buildWebpackConfig(paths)
-const { devServer: devServerConfig } = webpackConfig
+const webpackConfig = buildWebpackAnalyzeConfig(paths)
 
 rm(paths.build, (rmError) => {
   if (rmError) {
     throw rmError
   }
 
-  const compiler = webpack(webpackConfig, (webpackError, stats) => {
+  webpack(webpackConfig, (webpackError, stats) => {
     spinner.stop()
 
     if (webpackError) {
@@ -38,8 +35,5 @@ rm(paths.build, (rmError) => {
         chunkModules: false,
       })}\n\n`
     )
-
-    const server = new webpackDevServer(devServerConfig, compiler)
-    server.start()
   })
 })
