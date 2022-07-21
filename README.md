@@ -30,14 +30,25 @@ nvm use
 npm install -g npm
 ```
 
-Install all package dependencies.
+Development environment can now be started.
 
 ```
-yarn install
+yarn start
+```
+
+## Deployment
+
+A complete build will be generated and placed in the ***build*** folder.
+
+```
+yarn build
 ```
 
 ## Built With
 
+- [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
+- [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
+- [Webpack](https://webpack.js.org/) - Static module bundler
 - [Yarn](https://yarnpkg.com/) - Package management
 
 ## Versioning
