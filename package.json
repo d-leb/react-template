@@ -7,6 +7,7 @@
   "repository": "git@github.com:d-leb/preact-template",
   "packageManager": "yarn@3.2.1",
   "scripts": {
+    "analyze": "node scripts/analyze.mjs",
     "build": "node scripts/build.mjs",
     "eslint": "eslint --ext ts,tsx src --max-warnings=0",
     "eslint:fix": "eslint --ext ts,tsx src --fix",
