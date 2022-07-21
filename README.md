@@ -30,6 +30,8 @@ nvm use
 npm install -g npm
 ```
 
+Install recommended extensions for VSCode. The project workspace settings are already pre-configured.
+
 Development environment can now be started.
 
 ```
