@@ -30,14 +30,9 @@ nvm use
 npm install -g npm
 ```
 
-Install all package dependencies.
-
-```
-yarn install
-```
-
 ## Built With
 
+- [Webpack](https://webpack.js.org/) - Static module bundler
 - [Yarn](https://yarnpkg.com/) - Package management
 
 ## Versioning
