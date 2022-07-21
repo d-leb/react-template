@@ -8,6 +8,12 @@
   "packageManager": "yarn@3.2.1",
   "scripts": {
     "build": "node scripts/build.mjs",
+    "eslint": "eslint --ext ts,tsx src --max-warnings=0",
+    "eslint:fix": "eslint --ext ts,tsx src --fix",
+    "lint": "yarn eslint",
+    "review": "yarn lint",
+    "prettier": "prettier --check 'src/**/*.{ts,tsx,js,jsx}'",
+    "prettier:fix": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'",
     "start": "node scripts/start.mjs"
   },
   "devDependencies": {
