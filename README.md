@@ -36,6 +36,63 @@ Development environment can now be started.
 yarn start
 ```
 
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Running the tests
+
+A github will automatically run each of the following tests before allowing a PR to be merged. You can test all of the tests
+below by running the following command.
+
+```
+yarn review
+```
+
+### Code quality tests
+
+All code quality tests can be run using the lint script.
+
+```
+yarn lint
+```
+
+Code quality is verified using ESLint.
+
+```
+yarn eslint
+```
+
+If issues are found, you may try to automatically correct the issues.
+
+```
+yarn eslint:fix
+```
+
+Code formatting can be manually verified using prettier.
+
+```
+yarn prettier
+```
+
+If issues are found, you may try to automatically correct the issues.
+
+```
+yarn prettier:fix
+```
+
+### Test coverage (Integration and Unit)
+
+All tests can be run using the test script.
+
+```
+yarn test
+```
+
+You can manually check TypeScript types and syntax.
+
+```
+yarn tsc
+```
+
 ## Deployment
 
 A complete build will be generated and placed in the ***build*** folder.
@@ -46,6 +103,8 @@ yarn build
 
 ## Built With
 
+- [ESLint](https://eslint.org/) - Code quality inspector
+- [Prettier](https://prettier.io/) - An opinionated code formatter
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
 - [Webpack](https://webpack.js.org/) - Static module bundler
