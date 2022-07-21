@@ -2,10 +2,19 @@ import HtmlWebpackPlugin from 'html-webpack-plugin'
 import path from 'path'
 
 export const buildWebpackBaseConfig = (paths) => ({
-  entry: [path.resolve(paths.src, 'index.js')],
+  entry: [path.resolve(paths.src, 'index.ts')],
   output: {
     filename: '[name].[fullhash].js',
     path: path.resolve(paths.build)
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(ts|tsx)$/,
+        use: ['swc-loader'],
+        exclude: /node_modules/,
+      }
+    ]
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -16,6 +25,6 @@ export const buildWebpackBaseConfig = (paths) => ({
   ],
   resolve: {
     modules: ['node_modules', 'src'],
-    extensions: ['.js']
+    extensions: ['.tsx', '.ts', '.js', '.json']
   }
 })
