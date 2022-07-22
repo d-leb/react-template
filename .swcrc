@@ -18,5 +18,6 @@
     "target": "es2016"
   },
   "isModule": false,
-  "minify": true
+  "minify": true,
+  "sourceMaps": "inline"
 }

@@ -6,6 +6,7 @@ export const buildWebpackConfig = (paths) => {
   return {
     mode: 'development',
     ...webpackBaseConfig,
+    devtool: 'eval-cheap-module-source-map',
     entry: [...webpackBaseConfig.entry],
     output: {
       ...webpackBaseConfig.output,
