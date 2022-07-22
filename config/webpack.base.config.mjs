@@ -2,7 +2,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin'
 import path from 'path'
 
 export const buildWebpackBaseConfig = (paths) => ({
-  entry: [path.resolve(paths.src, 'index.ts')],
+  entry: [path.resolve(paths.src, 'index.tsx')],
   output: {
     filename: '[name].[fullhash].js',
     path: path.resolve(paths.build),
@@ -11,7 +11,15 @@ export const buildWebpackBaseConfig = (paths) => ({
     rules: [
       {
         test: /\.(ts|tsx)$/,
-        use: ['swc-loader'],
+        use: [
+          {
+            loader: 'imports-loader',
+            options: {
+              imports: ['named preact h', 'named preact Fragment'],
+            },
+          },
+          'swc-loader',
+        ],
         exclude: /node_modules/,
       },
     ],

@@ -8,6 +8,7 @@
       "dom.iterable",
       "esnext"
     ],
+    "typeRoots": ["./node_modules/@types", "./src/**/*.d.ts"],
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "allowJs": true,
@@ -17,12 +18,16 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "module": "commonjs",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "jsxImportSource": "preact",
+    "types": ["preact"]
   },
   "include": ["src"],
   "exclude": ["node_modules"]
