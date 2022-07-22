@@ -45,7 +45,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:7.30.1"],\
             ["eslint-plugin-react-hooks", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:4.6.0"],\
             ["html-webpack-plugin", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:5.5.0"],\
+            ["imports-loader", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:4.0.0"],\
             ["ora", "npm:6.1.2"],\
+            ["preact", "npm:10.10.0"],\
             ["prettier", "npm:2.7.1"],\
             ["rimraf", "npm:3.0.2"],\
             ["swc-loader", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:0.2.3"],\
@@ -4283,6 +4285,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["imports-loader", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/imports-loader-npm-4.0.0-25c9ab779a-4cadd35bdd.zip/node_modules/imports-loader/",\
+          "packageDependencies": [\
+            ["imports-loader", "npm:4.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:4.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/imports-loader-virtual-f16ca263c3/0/cache/imports-loader-npm-4.0.0-25c9ab779a-4cadd35bdd.zip/node_modules/imports-loader/",\
+          "packageDependencies": [\
+            ["imports-loader", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:4.0.0"],\
+            ["@types/webpack", null],\
+            ["source-map", "npm:0.6.1"],\
+            ["strip-comments", "npm:2.0.1"],\
+            ["webpack", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:5.73.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/webpack",\
+            "webpack"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["imurmurhash", [\
         ["npm:0.1.4", {\
           "packageLocation": "./.yarn/cache/imurmurhash-npm-0.1.4-610c5068a0-7cae75c8cd.zip/node_modules/imurmurhash/",\
@@ -5751,6 +5777,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["preact", [\
+        ["npm:10.10.0", {\
+          "packageLocation": "./.yarn/cache/preact-npm-10.10.0-dd04de05e8-ec34f0e7a8.zip/node_modules/preact/",\
+          "packageDependencies": [\
+            ["preact", "npm:10.10.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["preact-template", [\
         ["workspace:.", {\
           "packageLocation": "./",\
@@ -5769,7 +5804,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:7.30.1"],\
             ["eslint-plugin-react-hooks", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:4.6.0"],\
             ["html-webpack-plugin", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:5.5.0"],\
+            ["imports-loader", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:4.0.0"],\
             ["ora", "npm:6.1.2"],\
+            ["preact", "npm:10.10.0"],\
             ["prettier", "npm:2.7.1"],\
             ["rimraf", "npm:3.0.2"],\
             ["swc-loader", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:0.2.3"],\
@@ -6677,6 +6714,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/strip-bom-npm-3.0.0-71e8f81ff9-8d50ff27b7.zip/node_modules/strip-bom/",\
           "packageDependencies": [\
             ["strip-bom", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["strip-comments", [\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/strip-comments-npm-2.0.1-7f4e6e5047-36cd122e1c.zip/node_modules/strip-comments/",\
+          "packageDependencies": [\
+            ["strip-comments", "npm:2.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\

@@ -120,6 +120,7 @@ yarn build
 ## Built With
 
 - [ESLint](https://eslint.org/) - Code quality inspector
+- [Preact](https://preactjs.com/) - Fast 3kB alternative to React with the same modern API
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
