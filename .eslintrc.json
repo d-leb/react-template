@@ -6,6 +6,9 @@
   "extends": [
     "airbnb",
     "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "preact",
+    "plugin:jsx-a11y/recommended",
     "prettier"
   ],
   "globals": {
@@ -22,7 +25,9 @@
   },
   "plugins": [
     "@typescript-eslint",
-    "react"
+    "react",
+    "react-hooks",
+    "jsx-a11y"
   ],
   "rules": {
     "@typescript-eslint/explicit-function-return-type": 1,
@@ -77,6 +82,8 @@
     "react/react-in-jsx-scope": 0,
     "react/require-default-props": 0,
     "react/state-in-constructor": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
     "semi": ["error", "never"]
   },
   "overrides": [
