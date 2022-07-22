@@ -22,6 +22,11 @@ export const buildWebpackBaseConfig = (paths) => ({
         ],
         exclude: /node_modules/,
       },
+      {
+        test: /\.svg$/,
+        use: ['svg-url-loader'],
+        exclude: /node_modules/,
+      },
     ],
   },
   plugins: [
