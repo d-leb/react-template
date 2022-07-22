@@ -8,7 +8,7 @@
       "dom.iterable",
       "esnext"
     ],
-    "typeRoots": ["./node_modules/@types", "./src/**/*.d.ts"],
+    "typeRoots": ["node_modules/@types", "src/**/*.d.ts"],
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "allowJs": true,
@@ -27,7 +27,7 @@
     "jsxFactory": "h",
     "jsxFragmentFactory": "Fragment",
     "jsxImportSource": "preact",
-    "types": ["preact"]
+    "types": ["preact", "node"]
   },
   "include": ["src"],
   "exclude": ["node_modules"]

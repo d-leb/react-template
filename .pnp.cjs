@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@swc/core", "npm:1.2.218"],\
+            ["@types/node", "npm:18.0.6"],\
             ["@typescript-eslint/eslint-plugin", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:5.30.7"],\
             ["@typescript-eslint/parser", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:5.30.7"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.12"],\
@@ -8401,6 +8402,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["preact-template", "workspace:."],\
             ["@swc/core", "npm:1.2.218"],\
+            ["@types/node", "npm:18.0.6"],\
             ["@typescript-eslint/eslint-plugin", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:5.30.7"],\
             ["@typescript-eslint/parser", "virtual:b299b47dd102d79735d6ddb2254f7b2b4487f6ad33e4ade52eb30753bc19f262f4fb7bb5b25238e1e0d04e2d0dcf4098538375ce8a9d8b9697ab0c5a88adec22#npm:5.30.7"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.12"],\
