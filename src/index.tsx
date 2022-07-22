@@ -1,12 +1,18 @@
-import { render, ComponentChild } from 'preact'
+import { render } from 'preact'
 
 import { App } from './App'
 
-const renderApp = (app: ComponentChild): void => {
+const renderApp = (): void => {
   const rootElement = document.getElementById('root')
   if (rootElement) {
-    render(app, rootElement)
+    render(<App />, rootElement)
   }
 }
 
-renderApp(<App />)
+if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+  import('preact/debug').then(() => {
+    renderApp()
+  })
+} else {
+  renderApp()
+}
