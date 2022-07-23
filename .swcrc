@@ -17,6 +17,9 @@
     },
     "target": "es2016"
   },
+  "env": {
+    "coreJs": "3.22"
+  },
   "isModule": false,
   "minify": true,
   "sourceMaps": "inline"

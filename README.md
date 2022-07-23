@@ -119,6 +119,7 @@ yarn build
 
 ## Built With
 
+- [Browserlist](https://github.com/browserslist/browserslist) - Used to determine the browser support for a project
 - [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
 - [ESLint](https://eslint.org/) - Code quality inspector
 - [Preact](https://preactjs.com/) - Fast 3kB alternative to React with the same modern API

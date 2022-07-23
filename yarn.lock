@@ -2420,6 +2420,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"browserlist@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "browserlist@npm:1.0.1"
+  dependencies:
+    chalk: ^2.4.1
+  bin:
+    browserlist: ./cli.js
+  checksum: db4dc273b59637f4e716676978d2c8a2431fb021860ec8ea9552eebe24bff67e955630d42c3995a9b03c1606819b18fb032ab943103b54b830933ec4d695e516
+  languageName: node
+  linkType: hard
+
 "browserslist@npm:^4.14.5, browserslist@npm:^4.16.8, browserslist@npm:^4.20.2":
   version: 4.21.2
   resolution: "browserslist@npm:4.21.2"
@@ -2577,7 +2588,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^2.0.0":
+"chalk@npm:^2.0.0, chalk@npm:^2.4.1":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
   dependencies:
@@ -6711,6 +6722,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.30.7
     "@typescript-eslint/parser": ^5.30.7
     "@yarnpkg/sdks": ^3.0.0-rc.12
+    browserlist: ^1.0.1
     compression-webpack-plugin: ^10.0.0
     dotenv-webpack: ^8.0.0
     eslint: ^8.20.0
