@@ -1,3 +1,4 @@
+import Dotenv from 'dotenv-webpack'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import path from 'path'
 
@@ -30,6 +31,7 @@ export const buildWebpackBaseConfig = (paths) => ({
     ],
   },
   plugins: [
+    new Dotenv(),
     new HtmlWebpackPlugin({
       filename: 'index.html',
       hash: true,
