@@ -28,6 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^5.30.7",
     "@typescript-eslint/parser": "^5.30.7",
     "@yarnpkg/sdks": "^3.0.0-rc.12",
+    "browserlist": "^1.0.1",
     "compression-webpack-plugin": "^10.0.0",
     "dotenv-webpack": "^8.0.0",
     "eslint": "^8.20.0",
