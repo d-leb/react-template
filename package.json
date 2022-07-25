@@ -1,6 +1,6 @@
 {
   "name": "preact-template",
-  "version": "0.8.20",
+  "version": "0.8.21",
   "description": "A template for creating a new preact project",
   "author": "David LeBlanc <github@david-leblanc.com>",
   "license": "MIT",
