@@ -1,5 +1,6 @@
 {
   "jsc": {
+    "externalHelpers": true,
     "parser": {
       "syntax": "typescript",
       "tsx": true,
@@ -8,11 +9,7 @@
     },
     "transform": {
       "react": {
-        "pragma": "h",
-        "pragmaFrag": "Fragment",
-        "throwIfNamespace": true,
-        "development": false,
-        "useBuiltins": false
+        "runtime": "automatic"
       }
     },
     "target": "es2016"
