@@ -37,7 +37,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@swc/core": "^1.2.218",
+    "@swc/core": "^1.2.222",
     "@types/node": "^16.11.7",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
