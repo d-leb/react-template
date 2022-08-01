@@ -117,6 +117,16 @@ A complete build will be generated and placed in the ***build*** folder.
 yarn build
 ```
 
+## Environment Variables
+
+Create an .env file to store your environment variables.
+
+### Optional Variables
+
+| Variable Name | Description |
+| --- | --- |
+| LOG_WEB_VITALS | Set to true to log web vitals to the console. |
+
 ## Built With
 
 - [Browserlist](https://github.com/browserslist/browserslist) - Used to determine the browser support for a project
