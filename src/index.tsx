@@ -1,18 +1,16 @@
-import { render } from 'preact'
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
 
+import { reportWebVitals } from 'utils/reportWebVitals'
 import { App } from './App'
 
-const renderApp = (): void => {
-  const rootElement = document.getElementById('root')
-  if (rootElement) {
-    render(<App />, rootElement)
-  }
-}
+const rootElement = document.getElementById('root')
+const root = rootElement ? createRoot(rootElement) : undefined
 
-if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
-  import('preact/debug').then(() => {
-    renderApp()
-  })
-} else {
-  renderApp()
-}
+root?.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+)
+
+reportWebVitals()
