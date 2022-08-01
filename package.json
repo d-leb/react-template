@@ -1,10 +1,10 @@
 {
-  "name": "preact-template",
+  "name": "react-template",
   "version": "0.8.22",
-  "description": "A template for creating a new preact project",
+  "description": "A template for creating a new ReactJS project",
   "author": "David LeBlanc <github@david-leblanc.com>",
   "license": "MIT",
-  "repository": "git@github.com:d-leb/preact-template",
+  "repository": "git@github.com:d-leb/react-template",
   "packageManager": "yarn@3.2.1",
   "scripts": {
     "analyze": "node scripts/analyze.mjs",

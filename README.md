@@ -1,6 +1,6 @@
-# preact-template
+# react-template
 
-A template for creating a new preact project.
+A template for creating a new ReactJS project.
 
 ## Getting Started
 
@@ -132,8 +132,8 @@ Create an .env file to store your environment variables.
 - [Browserlist](https://github.com/browserslist/browserslist) - Used to determine the browser support for a project
 - [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
 - [ESLint](https://eslint.org/) - Code quality inspector
-- [Preact](https://preactjs.com/) - Fast 3kB alternative to React with the same modern API
 - [Prettier](https://prettier.io/) - An opinionated code formatter
+- [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
 - [Webpack](https://webpack.js.org/) - Static module bundler
@@ -149,7 +149,7 @@ Patch level is automatically updated on every merge into the develop branch.
 
 - **David LeBlanc** - _Initial work_ - [d-leb](https://github.com/d-leb)
 
-See also the list of [contributors](https://github.com/d-leb/preact-template/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/d-leb/react-template/graphs/contributors) who participated in this project.
 
 ## License
 
