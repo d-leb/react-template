@@ -12,15 +12,7 @@ export const buildWebpackBaseConfig = (paths) => ({
     rules: [
       {
         test: /\.(ts|tsx)$/,
-        use: [
-          {
-            loader: 'imports-loader',
-            options: {
-              imports: ['named preact h', 'named preact Fragment'],
-            },
-          },
-          'swc-loader',
-        ],
+        use: ['swc-loader'],
         exclude: /node_modules/,
       },
       {
