@@ -16,13 +16,16 @@ interface Props {
   heading: string
 }
 
-export const PageContainer = ({ children, heading }: Props) => (
-  <section>
-    <Helmet>
-      <title>{heading}</title>
-      <meta name="description" content={heading} />
-    </Helmet>
-    <h1>{heading}</h1>
-    <Container>{children}</Container>
-  </section>
-)
+export const PageContainer = ({ children, heading }: Props) => {
+  const title = `react-template${heading ? ` - ${heading}` : ''}`
+  return (
+    <section>
+      <Helmet>
+        <title>{title}</title>
+        <meta name="description" content={title} />
+      </Helmet>
+      <h1>{title}</h1>
+      <Container>{children}</Container>
+    </section>
+  )
+}
