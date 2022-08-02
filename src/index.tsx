@@ -6,6 +6,7 @@ import { GlobalStyle } from 'styles/GlobalStyle'
 import { Environment } from 'utils/environment'
 import { reportWebVitals } from 'utils/reportWebVitals'
 import { App } from './App'
+import { GlobalProviders } from './GlobalProviders'
 
 const rootElement = document.getElementById('root')
 const root = rootElement ? createRoot(rootElement) : undefined
@@ -13,7 +14,9 @@ const root = rootElement ? createRoot(rootElement) : undefined
 root?.render(
   <StrictMode>
     <GlobalStyle />
-    <App />
+    <GlobalProviders>
+      <App />
+    </GlobalProviders>
   </StrictMode>
 )
 
