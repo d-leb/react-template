@@ -15,13 +15,13 @@ export const buildWebpackConfig = (paths) => {
     optimization: {
       splitChunks: {
         chunks: 'all',
-        maxSize: 200000,
+        maxSize: 204800,
       },
     },
     performance: {
       hints: 'warning',
-      maxAssetSize: 250000,
-      maxEntrypointSize: 250000,
+      maxAssetSize: 204800,
+      maxEntrypointSize: 286720,
     },
     plugins: [...webpackBaseConfig.plugins, new CompressionPlugin()],
   }
