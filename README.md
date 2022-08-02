@@ -129,6 +129,7 @@ Create an .env file to store your environment variables.
 
 ## Built With
 
+- [Axe-Core](https://www.deque.com/axe/) - Accessibility testing tools
 - [Browserlist](https://github.com/browserslist/browserslist) - Used to determine the browser support for a project
 - [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
 - [ESLint](https://eslint.org/) - Code quality inspector
