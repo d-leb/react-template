@@ -136,6 +136,7 @@ Create an .env file to store your environment variables.
 - [FormatJS](https://formatjs.io/) - Internationalization libraries (react-intl)
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [React-Query](https://tanstack.com/query) - A Powerful asynchronous state management library for ReactJS
 - [React Helmet Async](https://github.com/staylor/react-helmet-async) - Document head manager
 - [React Router](https://reactrouter.com/) - Routing and navigation library
 - [Styled-Components](https://styled-components.com/) - CSS component system
