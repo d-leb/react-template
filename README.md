@@ -133,6 +133,7 @@ Create an .env file to store your environment variables.
 - [Browserlist](https://github.com/browserslist/browserslist) - Used to determine the browser support for a project
 - [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
 - [ESLint](https://eslint.org/) - Code quality inspector
+- [FormatJS](https://formatjs.io/) - Internationalization libraries (react-intl)
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [React Helmet Async](https://github.com/staylor/react-helmet-async) - Document head manager
