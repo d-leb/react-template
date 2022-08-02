@@ -9,4 +9,9 @@ const Container = styled.div`
   border-radius: 8px;
 `
 
-export const App = () => <Container>Hello World!</Container>
+export const App = () => (
+  <main>
+    <h1>react-template</h1>
+    <Container>Hello World!</Container>
+  </main>
+)
