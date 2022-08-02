@@ -135,6 +135,7 @@ Create an .env file to store your environment variables.
 - [ESLint](https://eslint.org/) - Code quality inspector
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [React Router](https://reactrouter.com/) - Routing and navigation library
 - [Styled-Components](https://styled-components.com/) - CSS component system
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language

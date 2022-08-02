@@ -8,7 +8,10 @@ const reportHandler = (metric: Metric): void => {
 
 export const reportWebVitals = (): void => {
   if (configuration.LogWebVitals) {
-    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+    import(
+      /* webpackMode: "lazy" */
+      'web-vitals'
+    ).then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
       getCLS(reportHandler)
       getFID(reportHandler)
       getFCP(reportHandler)

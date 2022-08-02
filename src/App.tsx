@@ -1,17 +1,25 @@
-import styled from 'styled-components'
+import React from 'react'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 
-const Container = styled.div`
-  width: 200px;
-  height: 150px;
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #222;
-  border-radius: 8px;
-`
+import { LazyLoad } from 'components/LazyLoad'
+import { RouteLocations } from 'routes'
+
+const Home = React.lazy(() => import('pages/Home'))
 
 export const App = () => (
   <main>
-    <h1>react-template</h1>
-    <Container>Hello World!</Container>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path={RouteLocations.Home}
+          element={
+            <LazyLoad>
+              <Home />
+            </LazyLoad>
+          }
+        />
+        <Route path="*" element={<Navigate to={RouteLocations.Home} />} />
+      </Routes>
+    </BrowserRouter>
   </main>
 )
