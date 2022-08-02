@@ -38,6 +38,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@axe-core/react@npm:^4.4.3":
+  version: 4.4.3
+  resolution: "@axe-core/react@npm:4.4.3"
+  dependencies:
+    axe-core: ^4.4.1
+    requestidlecallback: ^0.3.0
+  checksum: acc78f83552b6c4cc40eb112457d8fd325e04288bf3f638a1fe327974f6ffc802d66fdf2132df5692eda4c1bbccf7a75c3df8c2e2f1c2876d3417618db43b340
+  languageName: node
+  linkType: hard
+
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.12.13, @babel/code-frame@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/code-frame@npm:7.18.6"
@@ -2430,7 +2440,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axe-core@npm:^4.4.3":
+"axe-core@npm:^4.4.1, axe-core@npm:^4.4.3":
   version: 4.4.3
   resolution: "axe-core@npm:4.4.3"
   checksum: c3ea000d9ace3ba0bc747c8feafc24b0de62a0f7d93021d0f77b19c73fca15341843510f6170da563d51535d6cfb7a46c5fc0ea36170549dbb44b170208450a2
@@ -7166,6 +7176,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-template@workspace:."
   dependencies:
+    "@axe-core/react": ^4.4.3
     "@swc/core": ^1.2.222
     "@swc/helpers": ^0.4.3
     "@types/node": ^16.11.7
@@ -7310,6 +7321,13 @@ __metadata:
   version: 1.6.1
   resolution: "repeat-string@npm:1.6.1"
   checksum: 1b809fc6db97decdc68f5b12c4d1a671c8e3f65ec4a40c238bc5200e44e85bcc52a54f78268ab9c29fcf5fe4f1343e805420056d1f30fa9a9ee4c2d93e3cc6c0
+  languageName: node
+  linkType: hard
+
+"requestidlecallback@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "requestidlecallback@npm:0.3.0"
+  checksum: 2405aef711b516e326ff18849b24ad2c0e623d2b60397bdc7919fa40d8575fce0a16a563a53f94ec89d255325a99e5deee952e6024584a5179cbbabb4469f0e8
   languageName: node
   linkType: hard
 

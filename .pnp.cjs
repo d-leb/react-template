@@ -32,6 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@axe-core/react", "npm:4.4.3"],\
             ["@swc/core", "npm:1.2.222"],\
             ["@swc/helpers", "npm:0.4.3"],\
             ["@types/node", "npm:16.11.45"],\
@@ -92,6 +93,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@arcanis/slice-ansi", "npm:1.1.1"],\
             ["grapheme-splitter", "npm:1.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@axe-core/react", [\
+        ["npm:4.4.3", {\
+          "packageLocation": "./.yarn/cache/@axe-core-react-npm-4.4.3-cf36c172a4-acc78f8355.zip/node_modules/@axe-core/react/",\
+          "packageDependencies": [\
+            ["@axe-core/react", "npm:4.4.3"],\
+            ["axe-core", "npm:4.4.3"],\
+            ["requestidlecallback", "npm:0.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9009,6 +9021,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["react-template", "workspace:."],\
+            ["@axe-core/react", "npm:4.4.3"],\
             ["@swc/core", "npm:1.2.222"],\
             ["@swc/helpers", "npm:0.4.3"],\
             ["@types/node", "npm:16.11.45"],\
@@ -9156,6 +9169,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/repeat-string-npm-1.6.1-bc8e388655-1b809fc6db.zip/node_modules/repeat-string/",\
           "packageDependencies": [\
             ["repeat-string", "npm:1.6.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["requestidlecallback", [\
+        ["npm:0.3.0", {\
+          "packageLocation": "./.yarn/cache/requestidlecallback-npm-0.3.0-040e372761-2405aef711.zip/node_modules/requestidlecallback/",\
+          "packageDependencies": [\
+            ["requestidlecallback", "npm:0.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
