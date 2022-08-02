@@ -1,4 +1,5 @@
 import { ReactNode } from 'react'
+import { Helmet } from 'react-helmet-async'
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -17,6 +18,10 @@ interface Props {
 
 export const PageContainer = ({ children, heading }: Props) => (
   <section>
+    <Helmet>
+      <title>{heading}</title>
+      <meta name="description" content={heading} />
+    </Helmet>
     <h1>{heading}</h1>
     <Container>{children}</Container>
   </section>
