@@ -9,6 +9,9 @@ export const buildWebpackConfig = (paths) => {
     mode: 'production',
     ...webpackBaseConfig,
     devtool: false,
+    externals: {
+      '@axe-core/react': 'devtools',
+    },
     optimization: {
       splitChunks: {
         chunks: 'all',
