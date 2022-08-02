@@ -2,13 +2,13 @@ import { useIntl } from 'react-intl'
 
 import { PageContainer } from 'components/PageContainer'
 
-import { HelloWorld } from './HelloWorld'
+import { MeowFact } from './MeowFact'
 
 export default () => {
   const { formatMessage } = useIntl()
   return (
     <PageContainer heading={formatMessage({ id: 'home' })}>
-      <HelloWorld />
+      <MeowFact />
     </PageContainer>
   )
 }
