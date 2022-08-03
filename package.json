@@ -12,6 +12,7 @@
     "eslint": "eslint --ext ts,tsx src --max-warnings=0",
     "eslint:fix": "eslint --ext ts,tsx src --fix",
     "lint": "yarn eslint && yarn stylelint",
+    "jest": "jest",
     "review": "yarn lint && yarn test && yarn build",
     "prettier": "prettier --check 'src/**/*.{ts,tsx,js,jsx}'",
     "prettier:fix": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'",

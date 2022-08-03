@@ -116,6 +116,15 @@ You can manually check TypeScript types and syntax.
 yarn tsc
 ```
 
+Manually run Jest tests that include react component (integration level) and axe (accessibility) test.
+
+```
+yarn jest
+```
+
+**NOTE:** Jest tests are not supported using this template in PNP mode (for now). Uncomment the line ```nodeLinker: node-modules``` in the yarnrc.yml file and then run ```yarn install```. If you
+want jest tests to be part of the CI pipeline, you will need to update the test script in the package.json file to include ```yarn jest```.
+
 ### Bundle and Chunk management
 
 Chunk and module sizes and entry points can be examined.
