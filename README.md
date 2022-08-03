@@ -75,6 +75,21 @@ If issues are found, you may try to automatically correct the issues.
 yarn eslint:fix
 ```
 
+Code quality for CSS styles are verified using Stylelint.
+
+```
+yarn stylelint
+```
+
+If issues are found, you may try to automatically correct the issues.
+
+```
+yarn stylelint:fix
+```
+
+NOTE: Stylelint for this project template has been set up to follow a concentric pattern. Meaning that CSS properties are ordered by outer most properties first and movetoward the inner most
+properties. [Concentric CSS](https://rhodesmill.org/brandon/2011/concentric-css/)
+
 Code formatting can be manually verified using prettier.
 
 ```
