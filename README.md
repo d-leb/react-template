@@ -140,6 +140,7 @@ Create an .env file to store your environment variables.
 - [React Helmet Async](https://github.com/staylor/react-helmet-async) - Document head manager
 - [React Router](https://reactrouter.com/) - Routing and navigation library
 - [Styled-Components](https://styled-components.com/) - CSS component system
+- [Stylelint](https://stylelint.io/) - CSS quality inspector
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
 - [Webpack](https://webpack.js.org/) - Static module bundler
