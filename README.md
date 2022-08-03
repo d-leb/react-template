@@ -116,6 +116,15 @@ You can manually check TypeScript types and syntax.
 yarn tsc
 ```
 
+Manually run Jest tests that include react component (integration level) and axe (accessibility) test.
+
+```
+yarn jest
+```
+
+**NOTE:** Jest tests are not supported using this template in PNP mode (for now). Uncomment the line ```nodeLinker: node-modules``` in the yarnrc.yml file and then run ```yarn install```. If you
+want jest tests to be part of the CI pipeline, you will need to update the test script in the package.json file to include ```yarn jest```.
+
 ### Bundle and Chunk management
 
 Chunk and module sizes and entry points can be examined.
@@ -149,11 +158,13 @@ Create an .env file to store your environment variables.
 - [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
 - [ESLint](https://eslint.org/) - Code quality inspector
 - [FormatJS](https://formatjs.io/) - Internationalization libraries (react-intl)
+- [Jest](https://jestjs.io/) - JavaScript testing framework
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [React-Query](https://tanstack.com/query) - A Powerful asynchronous state management library for ReactJS
 - [React Helmet Async](https://github.com/staylor/react-helmet-async) - Document head manager
 - [React Router](https://reactrouter.com/) - Routing and navigation library
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) - API Library for React components
 - [Styled-Components](https://styled-components.com/) - CSS component system
 - [Stylelint](https://stylelint.io/) - CSS quality inspector
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling

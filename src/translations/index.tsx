@@ -3,11 +3,12 @@ import { IntlProvider } from 'react-intl'
 
 import enMesages from './en.json'
 
-type MessageKey = keyof typeof enMesages
-type Messages = Record<MessageKey, string>
+type Messages = Record<string, string>
 interface MessagesCollection {
   [locale: string]: Messages
 }
+
+export const testMessages: Messages = enMesages
 
 const getLocale = () => navigator.language.split(/[-_]/)[0]
 
@@ -26,9 +27,11 @@ export const MessageProvider = ({ children }: Props) => {
   const [messages, setMessages] = useState<MessagesCollection>({ en: enMesages })
 
   useEffect(() => {
-    loadMessages(locale).then((lazyMessages: Messages) => {
-      setMessages((prevMessages) => ({ ...prevMessages, [locale]: lazyMessages }))
-    })
+    if (locale !== 'en') {
+      loadMessages(locale).then((lazyMessages: Messages) => {
+        setMessages((prevMessages) => ({ ...prevMessages, [locale]: lazyMessages }))
+      })
+    }
   }, [locale])
 
   return (
