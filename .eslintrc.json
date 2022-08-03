@@ -51,8 +51,7 @@
       "error",
       {
         "devDependencies": [
-          "**/devtools/*.ts",
-          "**/*.stories.tsx",
+          "**/testing-library.ts",
           "**/*.test.ts",
           "**/*.test.tsx"
         ]
