@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-concentric-order",
+    "stylelint-config-prettier"
+  ],
+  "customSyntax": "postcss-jsx"
+}

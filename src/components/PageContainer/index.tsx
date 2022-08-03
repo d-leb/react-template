@@ -3,12 +3,12 @@ import { Helmet } from 'react-helmet-async'
 import styled from 'styled-components'
 
 const Container = styled.div`
-  width: 400px;
-  height: 250px;
   margin-top: 20px;
-  padding: 20px;
   border: 1px solid #222;
   border-radius: 8px;
+  padding: 20px;
+  width: 400px;
+  height: 250px;
 `
 
 interface Props {

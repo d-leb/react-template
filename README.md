@@ -75,6 +75,21 @@ If issues are found, you may try to automatically correct the issues.
 yarn eslint:fix
 ```
 
+Code quality for CSS styles are verified using Stylelint.
+
+```
+yarn stylelint
+```
+
+If issues are found, you may try to automatically correct the issues.
+
+```
+yarn stylelint:fix
+```
+
+NOTE: Stylelint for this project template has been set up to follow a concentric pattern. Meaning that CSS properties are ordered by outer most properties first and movetoward the inner most
+properties. [Concentric CSS](https://rhodesmill.org/brandon/2011/concentric-css/)
+
 Code formatting can be manually verified using prettier.
 
 ```
@@ -140,6 +155,7 @@ Create an .env file to store your environment variables.
 - [React Helmet Async](https://github.com/staylor/react-helmet-async) - Document head manager
 - [React Router](https://reactrouter.com/) - Routing and navigation library
 - [Styled-Components](https://styled-components.com/) - CSS component system
+- [Stylelint](https://stylelint.io/) - CSS quality inspector
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
 - [Webpack](https://webpack.js.org/) - Static module bundler
