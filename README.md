@@ -2,6 +2,24 @@
 
 A template for creating a new ReactJS project.
 
+## Some Thoughts
+
+This is a working project template, meaning that it will change over time. For example, when I am able to get Jest to play nicely with @swc/jest and yarn 3 pnp mode, there will no longer be a need
+to enable the node_modules linker if you want to use jest and react testing library. To use this template, simply copy the entire contents of the project minus the ```.git``` and ```.github```
+directories.
+
+When using this template, please be sure to custom tailer it to your needs. For example, if you do not need a global internationalization support used for text in a global template or your web app
+title and metadata, move the MessageProvider from the GlobalProviders to the individual page providers. This cause the internationalization module to be asynchronously loaded after the page template
+is displayed. If your page template does not change geometry (which it usually should not), then this will give a better loading experience to first time users as it shaves off time on the first
+visit.
+
+If you find you don't need a particular library remove it from your project. Simple projects do not need react-intl support. Do not forget to use ```yarn analyze``` to identify which libraries are
+taking up the most space. Finally, when removing a library that is bundled into the main entry point, be sure to reduce the main entry point max size in the ```webpack.prod.config.mjs``` file. If
+you add additional libraries to your own project, I would suggest using React's lazy load or an asynchronous import from a major page section, rather than the App or GlobalProviders component. This
+will allow the page to load faster and load libraries into the web browser as needed.
+
+If you have suggestions or have any problems, please open an issue on the [d-leb/react-template issues board](https://github.com/d-leb/react-template/issues).
+
 ## Getting Started
 
 These instructions will get your copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
