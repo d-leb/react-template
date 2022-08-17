@@ -84,7 +84,7 @@
     "postcss-syntax": "^0.36.2",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
-    "stylelint": "^14.9.1",
+    "stylelint": "^14.10.0",
     "stylelint-config-concentric-order": "^5.0.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-scss": "^7.0.0",
