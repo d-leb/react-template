@@ -1372,9 +1372,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:^4.0.10":
-  version: 4.0.10
-  resolution: "@tanstack/react-query@npm:4.0.10"
+"@tanstack/react-query@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "@tanstack/react-query@npm:4.2.1"
   dependencies:
     "@tanstack/query-core": ^4.0.0-beta.1
     "@types/use-sync-external-store": ^0.0.3
@@ -1388,7 +1388,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: b5f7501f977f4262fe80e510f5d58f3b49163ff7232603a839b7184431db7309c38ab55c5856a9d31a3c5219dd5031f9174e9dfcc78408300d0424b3000b9034
+  checksum: bbf3a808645c26c649971dc182bb9a7ed7a1d89f6456b60685c6081b8be6ae84ae83b39c7eacb96c4f3b6677ca001d8114037329951987b7a8d65de53b28c862
   languageName: node
   linkType: hard
 
@@ -1917,14 +1917,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:^5.1.25":
-  version: 5.1.25
-  resolution: "@types/styled-components@npm:5.1.25"
+"@types/styled-components@npm:^5.1.26":
+  version: 5.1.26
+  resolution: "@types/styled-components@npm:5.1.26"
   dependencies:
     "@types/hoist-non-react-statics": "*"
     "@types/react": "*"
     csstype: ^3.0.2
-  checksum: 60ce64f13283b01da54fd3a4c5703769d8575c979d5ec6b67ad124c2d4df980c9b96bb91af87e03f6447a816a5d2b0270c63eefad60cfa885091b594984525f5
+  checksum: 84f53b3101739b20d1731554fb7735bc2f3f5d050a8b392e9845403c8c8bbd729737d033978649f9195a97b557875b010d46e35a4538564a2d0dbcce661dbf76
   languageName: node
   linkType: hard
 
@@ -4169,14 +4169,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-webpack@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "dotenv-webpack@npm:8.0.0"
+"dotenv-webpack@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "dotenv-webpack@npm:8.0.1"
   dependencies:
     dotenv-defaults: ^2.0.2
   peerDependencies:
     webpack: ^4 || ^5
-  checksum: 1ca629608b818ba927b54044a0ff02f089733c1acc8e9fa10e037cc5157867f63a825850965a91377814879509544ae8e0742e67bd3ed9ea51bd2b8eed755201
+  checksum: ee73eda78df90bcf7446763dfe5e518a2054ed6222783856912d2c6a255fdfc041854e125e036ff2603b06fb44f5234713fad5feecb1e66a54fe78a35a98fb87
   languageName: node
   linkType: hard
 
@@ -4526,9 +4526,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^26.8.0":
-  version: 26.8.0
-  resolution: "eslint-plugin-jest@npm:26.8.0"
+"eslint-plugin-jest@npm:^26.8.3":
+  version: 26.8.3
+  resolution: "eslint-plugin-jest@npm:26.8.3"
   dependencies:
     "@typescript-eslint/utils": ^5.10.0
   peerDependencies:
@@ -4539,7 +4539,7 @@ __metadata:
       optional: true
     jest:
       optional: true
-  checksum: 5dceef6c58422d912e29346be86940ad24602026517a92ce61ddb29814c2185609887a1ea0b6061080ca19d9ee6749549d3424102b28620088e53ec45aefa915
+  checksum: 3fd8dd06e4b293caf9a06a8767731e7f9fd0e74cae2f5f820484ab01a7435cab340bdcc41295bff71c0448fc92345830a399848acb4aec481e3abbfeebe14e2d
   languageName: node
   linkType: hard
 
@@ -8456,7 +8456,7 @@ __metadata:
     "@swc/core": ^1.2.237
     "@swc/helpers": ^0.4.6
     "@swc/jest": ^0.2.22
-    "@tanstack/react-query": ^4.0.10
+    "@tanstack/react-query": ^4.2.1
     "@testing-library/react": ^13.3.0
     "@types/jest": ^28.1.7
     "@types/mocha": ^9.1.1
@@ -8464,19 +8464,19 @@ __metadata:
     "@types/react": ^18.0.16
     "@types/react-dom": ^18.0.6
     "@types/react-router-dom": ^5.3.3
-    "@types/styled-components": ^5.1.25
+    "@types/styled-components": ^5.1.26
     "@typescript-eslint/eslint-plugin": ^5.33.0
     "@typescript-eslint/parser": ^5.33.1
     "@yarnpkg/sdks": ^3.0.0-rc.14
     browserlist: ^1.0.1
     compression-webpack-plugin: ^10.0.0
-    dotenv-webpack: ^8.0.0
+    dotenv-webpack: ^8.0.1
     eslint: ^8.22.0
     eslint-config-airbnb: ^19.0.4
     eslint-config-prettier: ^8.5.0
     eslint-plugin-compat: ^4.0.2
     eslint-plugin-import: ^2.26.0
-    eslint-plugin-jest: ^26.8.0
+    eslint-plugin-jest: ^26.8.3
     eslint-plugin-jsx-a11y: ^6.6.1
     eslint-plugin-react: ^7.30.1
     eslint-plugin-react-hooks: ^4.6.0
