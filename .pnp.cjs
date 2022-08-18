@@ -50,7 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/sdks", "npm:3.0.0-rc.14"],\
             ["browserlist", "npm:1.0.1"],\
             ["compression-webpack-plugin", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:10.0.0"],\
-            ["dotenv-webpack", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:8.0.0"],\
+            ["dotenv-webpack", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:8.0.1"],\
             ["eslint", "npm:8.22.0"],\
             ["eslint-config-airbnb", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:19.0.4"],\
             ["eslint-config-prettier", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:8.5.0"],\
@@ -5482,17 +5482,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["dotenv-webpack", [\
-        ["npm:8.0.0", {\
-          "packageLocation": "./.yarn/cache/dotenv-webpack-npm-8.0.0-dccdb9867c-1ca629608b.zip/node_modules/dotenv-webpack/",\
+        ["npm:8.0.1", {\
+          "packageLocation": "./.yarn/cache/dotenv-webpack-npm-8.0.1-36e1a1f481-ee73eda78d.zip/node_modules/dotenv-webpack/",\
           "packageDependencies": [\
-            ["dotenv-webpack", "npm:8.0.0"]\
+            ["dotenv-webpack", "npm:8.0.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:8.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/dotenv-webpack-virtual-5551ccd42a/0/cache/dotenv-webpack-npm-8.0.0-dccdb9867c-1ca629608b.zip/node_modules/dotenv-webpack/",\
+        ["virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:8.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/dotenv-webpack-virtual-73f6ae8327/0/cache/dotenv-webpack-npm-8.0.1-36e1a1f481-ee73eda78d.zip/node_modules/dotenv-webpack/",\
           "packageDependencies": [\
-            ["dotenv-webpack", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:8.0.0"],\
+            ["dotenv-webpack", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:8.0.1"],\
             ["@types/webpack", null],\
             ["dotenv-defaults", "npm:2.0.2"],\
             ["webpack", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:5.74.0"]\
@@ -10673,7 +10673,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/sdks", "npm:3.0.0-rc.14"],\
             ["browserlist", "npm:1.0.1"],\
             ["compression-webpack-plugin", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:10.0.0"],\
-            ["dotenv-webpack", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:8.0.0"],\
+            ["dotenv-webpack", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:8.0.1"],\
             ["eslint", "npm:8.22.0"],\
             ["eslint-config-airbnb", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:19.0.4"],\
             ["eslint-config-prettier", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:8.5.0"],\
