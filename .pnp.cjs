@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/jest", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.2.22"],\
             ["@tanstack/react-query", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:4.2.1"],\
             ["@testing-library/react", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:13.3.0"],\
-            ["@types/jest", "npm:28.1.7"],\
+            ["@types/jest", "npm:28.1.8"],\
             ["@types/mocha", "npm:9.1.1"],\
             ["@types/node", "npm:16.11.45"],\
             ["@types/react", "npm:18.0.16"],\
@@ -2304,10 +2304,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/jest", [\
-        ["npm:28.1.7", {\
-          "packageLocation": "./.yarn/cache/@types-jest-npm-28.1.7-d501839892-17c9bf9667.zip/node_modules/@types/jest/",\
+        ["npm:28.1.8", {\
+          "packageLocation": "./.yarn/cache/@types-jest-npm-28.1.8-c361b866d1-d4cd36158a.zip/node_modules/@types/jest/",\
           "packageDependencies": [\
-            ["@types/jest", "npm:28.1.7"],\
+            ["@types/jest", "npm:28.1.8"],\
             ["expect", "npm:28.1.3"],\
             ["pretty-format", "npm:28.1.3"]\
           ],\
@@ -6071,7 +6071,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["eslint-plugin-jest", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:26.8.7"],\
             ["@types/eslint", null],\
-            ["@types/jest", "npm:28.1.7"],\
+            ["@types/jest", "npm:28.1.8"],\
             ["@types/typescript-eslint__eslint-plugin", null],\
             ["@typescript-eslint/eslint-plugin", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:5.33.1"],\
             ["@typescript-eslint/utils", "virtual:b383b56627dbf3a0fcb92e5305379964e4782d499ba774f788312c37b4dc05db3cb0eea061c0bfeb5994a47fa795b567adf88198a9f6c751ff7a12c64f8901e9#npm:5.30.7"],\
@@ -10693,7 +10693,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/jest", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.2.22"],\
             ["@tanstack/react-query", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:4.2.1"],\
             ["@testing-library/react", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:13.3.0"],\
-            ["@types/jest", "npm:28.1.7"],\
+            ["@types/jest", "npm:28.1.8"],\
             ["@types/mocha", "npm:9.1.1"],\
             ["@types/node", "npm:16.11.45"],\
             ["@types/react", "npm:18.0.16"],\
