@@ -8499,7 +8499,7 @@ __metadata:
     rimraf: ^3.0.2
     styled-components: ^5.3.5
     stylelint: ^14.11.0
-    stylelint-config-concentric-order: ^5.0.0
+    stylelint-config-concentric-order: ^5.1.0
     stylelint-config-prettier: ^9.0.3
     stylelint-config-recommended-scss: ^7.0.0
     stylelint-config-standard-scss: ^5.0.0
@@ -9452,12 +9452,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-concentric-order@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "stylelint-config-concentric-order@npm:5.0.0"
+"stylelint-config-concentric-order@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "stylelint-config-concentric-order@npm:5.1.0"
   dependencies:
     stylelint-order: ^5.0.0
-  checksum: 6b5897af87d15d6b7c71ae5d3db21477cf9477470ba006bb4297e3eea200ebcb4d748ec4b630b1bbefb3996fe6eb19c862732fc7e322b7d45b05becc98b60b7d
+  checksum: 47e4923cdc2cd0cd2f4abfa12a99fed0faf8692c1571e9e6f4796b71a82d45eb91f9001399f5e15a920ca15fa7ccc8fc72c3073a876da320895c8610e9a51256
   languageName: node
   linkType: hard
 
