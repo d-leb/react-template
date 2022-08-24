@@ -4,5 +4,21 @@
     "stylelint-config-concentric-order",
     "stylelint-config-prettier"
   ],
-  "customSyntax": "postcss-jsx"
+  "overrides": [
+    {
+      "files": ["**/*.tsx"],
+      "customSyntax": "@stylelint/postcss-css-in-js",
+      "rules": {
+        "scss/operator-no-newline-after": null,
+        "scss/operator-no-unspaced": null,
+        "declaration-empty-line-before": "never",
+        "value-keyword-case": [
+          "lower",
+          {
+            "ignoreKeywords": ["/^\\$?/"]
+          }
+        ]
+      }
+    }
+  ]
 }
