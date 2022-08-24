@@ -20,12 +20,16 @@ root?.render(
   </StrictMode>
 )
 
+const cssTransitionTimeout = 1000
+
 if (Environment.mode === 'development') {
-  import(
-    /* webpackMode: "lazy" */
-    /* webpackChunkName: "dev-tool-react-axe" */
-    '@axe-core/react'
-  ).then((axe) => axe.default(React, ReactDOM, 1000))
+  setTimeout(() => {
+    import(
+      /* webpackMode: "lazy" */
+      /* webpackChunkName: "dev-tool-react-axe" */
+      '@axe-core/react'
+    ).then((axe) => axe.default(React, ReactDOM, cssTransitionTimeout))
+  }, cssTransitionTimeout)
 }
 
 reportWebVitals()
