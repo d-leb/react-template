@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async'
 import styled from 'styled-components'
 
 import { Breakpoints } from 'styles'
+import { useMobileBreakpoint } from 'utils/browser'
 
 interface Props {
   children?: ReactNode
@@ -28,6 +29,7 @@ const Content = styled.div`
 `
 
 export const PageTemplate = ({ children, heading }: Props) => {
+  const isMobile = useMobileBreakpoint()
   const title = `react-template${heading ? ` - ${heading}` : ''}`
   return (
     <Section>
@@ -36,7 +38,7 @@ export const PageTemplate = ({ children, heading }: Props) => {
         <meta name="description" content={title} />
       </Helmet>
       <Content>
-        <h1>{title}</h1>
+        {!isMobile && <h1>{title}</h1>}
         {children}
       </Content>
     </Section>
