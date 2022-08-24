@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
-import { Colors } from 'styles/Colors'
+import { Colors } from 'styles'
 
 export const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    margin: 0 40px;
+    margin: 40px;
     padding: 0;
 
     background-color: ${Colors.PAGE_BACKGROUND};
