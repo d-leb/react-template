@@ -47,7 +47,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@swc/core": "^1.2.237",
+    "@swc/core": "^1.2.242",
     "@swc/helpers": "^0.4.6",
     "@swc/jest": "^0.2.22",
     "@testing-library/react": "^13.3.0",
