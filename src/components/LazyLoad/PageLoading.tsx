@@ -1,3 +1,3 @@
-import { PageContainer } from 'components/PageContainer'
+import { PageTemplate } from 'components/PageTemplate'
 
-export const PageLoading = () => <PageContainer heading="react-template" />
+export const PageLoading = () => <PageTemplate heading="react-template" />

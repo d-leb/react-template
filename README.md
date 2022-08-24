@@ -177,10 +177,12 @@ Create an .env file to store your environment variables.
 - [ESLint](https://eslint.org/) - Code quality inspector
 - [FormatJS](https://formatjs.io/) - Internationalization libraries (react-intl)
 - [Jest](https://jestjs.io/) - JavaScript testing framework
+- [Open Sans](https://fonts.google.com/specimen/Open+Sans) - Font designed with an upright stress, open forms and a neutral, yet friendly appearance
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [React-Query](https://tanstack.com/query) - A Powerful asynchronous state management library for ReactJS
 - [React Helmet Async](https://github.com/staylor/react-helmet-async) - Document head manager
+- [React Responsive](https://github.com/contra/react-responsive) - React media query module for responsive design
 - [React Router](https://reactrouter.com/) - Routing and navigation library
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) - API Library for React components
 - [Styled-Components](https://styled-components.com/) - CSS component system
