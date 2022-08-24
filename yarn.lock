@@ -1322,12 +1322,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/helpers@npm:^0.4.6":
-  version: 0.4.6
-  resolution: "@swc/helpers@npm:0.4.6"
+"@swc/helpers@npm:^0.4.9":
+  version: 0.4.9
+  resolution: "@swc/helpers@npm:0.4.9"
   dependencies:
     tslib: ^2.4.0
-  checksum: 51acb910f80bd7b4b8c685c217fd3dbe31632ac1f0bc46717aead7f39e4e643233aadbf51e93be31b54255c11ec89ee10ec906e86408af1da1b5d91674658c6c
+  checksum: b456f7b6f183bee4cd7b7d7bff5e844398259dec43a4f18f51eb1a9a632e416dc3707a9954ae27d88fa6040a658a6cbcecdf0619d49c9454e94f4f34d9bc5ecb
   languageName: node
   linkType: hard
 
@@ -8499,7 +8499,7 @@ __metadata:
   dependencies:
     "@axe-core/react": ^4.4.3
     "@swc/core": ^1.2.242
-    "@swc/helpers": ^0.4.6
+    "@swc/helpers": ^0.4.9
     "@swc/jest": ^0.2.22
     "@tanstack/react-query": ^4.2.1
     "@testing-library/react": ^13.3.0
