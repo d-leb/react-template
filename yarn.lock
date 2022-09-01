@@ -38,13 +38,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@axe-core/react@npm:^4.4.3":
-  version: 4.4.3
-  resolution: "@axe-core/react@npm:4.4.3"
+"@axe-core/react@npm:^4.4.4":
+  version: 4.4.4
+  resolution: "@axe-core/react@npm:4.4.4"
   dependencies:
     axe-core: ^4.4.1
     requestidlecallback: ^0.3.0
-  checksum: acc78f83552b6c4cc40eb112457d8fd325e04288bf3f638a1fe327974f6ffc802d66fdf2132df5692eda4c1bbccf7a75c3df8c2e2f1c2876d3417618db43b340
+  checksum: 1328066d39ddf6960c8affd43266e5c068c05a23b64dde8c5d3bad7c8742e93a86f355ffd16f38989bbfcb87ba719d4a26eff267410f3d9f2a2b9a8ffea93041
   languageName: node
   linkType: hard
 
@@ -8638,7 +8638,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-template@workspace:."
   dependencies:
-    "@axe-core/react": ^4.4.3
+    "@axe-core/react": ^4.4.4
     "@stylelint/postcss-css-in-js": ^0.38.0
     "@swc/core": ^1.2.242
     "@swc/helpers": ^0.4.9
