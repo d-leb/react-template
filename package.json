@@ -13,8 +13,6 @@
     "eslint:fix": "eslint --ext ts,tsx src --fix",
     "lint": "yarn eslint && yarn stylelint",
     "jest": "jest",
-    "modules:disable": "node scripts/toggles.mjs node_modules disable",
-    "modules:enable": "node scripts/toggles.mjs node_modules enable",
     "review": "yarn lint && yarn test && yarn build",
     "prettier": "prettier --check 'src/**/*.{ts,tsx,js,jsx}'",
     "prettier:fix": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'",
