@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/helpers", "npm:0.4.9"],\
             ["@swc/jest", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.2.22"],\
             ["@tanstack/react-query", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:4.2.3"],\
-            ["@testing-library/react", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:13.4.0"],\
+            ["@testing-library/react", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:13.3.0"],\
             ["@types/jest", "npm:28.1.8"],\
             ["@types/mocha", "npm:9.1.1"],\
             ["@types/node", "npm:16.11.45"],\
@@ -2126,17 +2126,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@testing-library/react", [\
-        ["npm:13.4.0", {\
-          "packageLocation": "./.yarn/cache/@testing-library-react-npm-13.4.0-eaa652c0f5-51ec548c1f.zip/node_modules/@testing-library/react/",\
+        ["npm:13.3.0", {\
+          "packageLocation": "./.yarn/cache/@testing-library-react-npm-13.3.0-1a86ca29b7-98fd8616a7.zip/node_modules/@testing-library/react/",\
           "packageDependencies": [\
-            ["@testing-library/react", "npm:13.4.0"]\
+            ["@testing-library/react", "npm:13.3.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:13.4.0", {\
-          "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-80c5faedf2/0/cache/@testing-library-react-npm-13.4.0-eaa652c0f5-51ec548c1f.zip/node_modules/@testing-library/react/",\
+        ["virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:13.3.0", {\
+          "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-9cb45043cd/0/cache/@testing-library-react-npm-13.3.0-1a86ca29b7-98fd8616a7.zip/node_modules/@testing-library/react/",\
           "packageDependencies": [\
-            ["@testing-library/react", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:13.4.0"],\
+            ["@testing-library/react", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:13.3.0"],\
             ["@babel/runtime", "npm:7.18.9"],\
             ["@testing-library/dom", "npm:8.16.0"],\
             ["@types/react", "npm:18.0.16"],\
@@ -10840,7 +10840,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/helpers", "npm:0.4.9"],\
             ["@swc/jest", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.2.22"],\
             ["@tanstack/react-query", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:4.2.3"],\
-            ["@testing-library/react", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:13.4.0"],\
+            ["@testing-library/react", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:13.3.0"],\
             ["@types/jest", "npm:28.1.8"],\
             ["@types/mocha", "npm:9.1.1"],\
             ["@types/node", "npm:16.11.45"],\
