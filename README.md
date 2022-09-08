@@ -1,22 +1,20 @@
 # react-template
 
-A template for creating a new ReactJS project.
+A template for creating a new ReactJS project. It is a working project template, meaning that it will change over time. To use this template, simply copy the entire contents of the project minus
+the ```.git``` directory. If you do not want to use the bundled Github automation scripts, you can delete the ```.github``` directory.
 
-## Some Thoughts
+Until SWC supports modules using yarn 3.x pnp resolution, SWC plugin support will require the node linker to be set to use node module resolution. This includes Jest testing as Jest uses the
+@swc/jest plugin when transforming. Instructions on enabling node module resolution can be found in the [Installing section](###-Installing) of this README.
 
-This is a working project template, meaning that it will change over time. For example, when I am able to get Jest to play nicely with @swc/jest and yarn 3 pnp mode, there will no longer be a need
-to enable the node_modules linker if you want to use jest and react testing library. To use this template, simply copy the entire contents of the project minus the ```.git``` and ```.github```
-directories.
-
-When using this template, please be sure to custom tailer it to your needs. For example, if you do not need a global internationalization support used for text in a global template or your web app
+When using this template, please be sure to custom tailer it to your needs. For example, if you do not need global internationalization support used for text in a global template or your web app
 title and metadata, move the MessageProvider from the GlobalProviders to the individual page providers. This cause the internationalization module to be asynchronously loaded after the page template
-is displayed. If your page template does not change geometry (which it usually should not), then this will give a better loading experience to first time users as it shaves off time on the first
+is displayed. If your page template does not change geometry, which it usually should not, then this will give a better loading experience to first time users as it shaves off time on the first
 visit.
 
-If you find you don't need a particular library remove it from your project. Simple projects do not need react-intl support. Do not forget to use ```yarn analyze``` to identify which libraries are
-taking up the most space. Finally, when removing a library that is bundled into the main entry point, be sure to reduce the main entry point max size in the ```webpack.prod.config.mjs``` file. If
-you add additional libraries to your own project, I would suggest using React's lazy load or an asynchronous import from a major page section, rather than the App or GlobalProviders component. This
-will allow the page to load faster and load libraries into the web browser as needed.
+If you find that you don't need a particular library remove it from your project. Simple projects do not need react-intl support. Do not forget to use ```yarn analyze``` to identify which libraries
+are taking up the most space. Finally, when removing a library that is bundled into the main entry point, be sure to reduce the main entry point max size in the ```webpack.prod.config.mjs``` file.
+If you add additional libraries to your own project, I would suggest using React's lazy load or an asynchronous import from a major page section, rather than the App or GlobalProviders component.
+This will allow the page to load faster and load libraries into the web browser as needed.
 
 If you have suggestions or have any problems, please open an issue on the [d-leb/react-template issues board](https://github.com/d-leb/react-template/issues).
 
@@ -26,13 +24,13 @@ These instructions will get your copy of the project up and running on your loca
 
 ### Prerequisites
 
-NodeJS is required to run commands and scripts. Installation instructions can be found at [NodeJS.org](https://nodejs.org/).
+NodeJS is required to run commands and scripts. Both software and installation instructions can be found at [NodeJS.org](https://nodejs.org/). Using the LTS version is recommended.
 
 Nvm is used as the node version manager to ensure the correct version of NodeJS is used with this project. For specific installation instructions, visit the
-[nvm-sh/nvm repo](https://github.com/nvm-sh/nvm) and read the instructions for installation. For Windows, you will need to install Windows WSL or use the bash system installed with git and manually
+[nvm-sh/nvm repo](https://github.com/nvm-sh/nvm) and follow the instructions for installation. For Windows, you will need to install Windows WSL or use the bash system installed with git and manually
 add the ~/.nvm folder to your user PATH and .bash_profile file.
 
-Yarn is used as the package manager and to initiate scripts. You can install Yarn globably by running the command below.
+Yarn is used as the package manager and to initiate scripts. You can install Yarn globably by running the command below after you have NodeJS installed.
 
 ```
 npm install -g yarn
@@ -40,7 +38,7 @@ npm install -g yarn
 
 ### Installing
 
-Install NodeJS dependencies.
+Install the specific NodeJS version dependencies.
 
 ```
 nvm install
@@ -48,26 +46,39 @@ nvm use
 npm install -g npm
 ```
 
-Setup package dependencies.
+Setup package dependencies. By default, this will install package dependencies using yarn pnp resolution.
 
 ```
 yarn install
 ```
 
-Install recommended extensions for VSCode. The project workspace settings are already pre-configured.
+If you require SWC plugin support, which is required by Jest, you will need to set the linker to use node module resolution. This is done by running the following commands.
 
-Development environment can now be started.
+```
+yarn modules:enable
+yarn install
+```
+
+If you find yourself no longer needing SWC plugin support, you can disable node module resolution by running the following commands.
+
+```
+yarn modules:disable
+yarn install
+```
+
+Be sure to install recommended extensions for VSCode. The project workspace settings are already pre-configured. This will allow VCode to automatically format your code.
+
+The Development environment can now be started.
 
 ```
 yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Your default web browser should open or you can open any web browser on your development machine and visit [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Running the tests
 
-A github will automatically run each of the following tests before allowing a PR to be merged. You can test all of the tests
-below by running the following command.
+Github will automatically run each of the following tests before allowing a PR to be merged. You can manually run all tests by running the review script.
 
 ```
 yarn review
@@ -134,14 +145,14 @@ You can manually check TypeScript types and syntax.
 yarn tsc
 ```
 
-Manually run Jest tests that include react component (integration level) and axe (accessibility) test.
+Manually run Jest tests that include react component (integration level) and axe (accessibility) test. NOTE: This requires SWC plugin support. See [Installing section](###-Installing) for enabling 
+node module resolution if you haven't already.
 
 ```
 yarn jest
 ```
 
-**NOTE:** Jest tests are not supported using this template in PNP mode (for now). Uncomment the line ```nodeLinker: node-modules``` in the yarnrc.yml file and then run ```yarn install```. If you
-want jest tests to be part of the CI pipeline, you will need to update the test script in the package.json file to include ```yarn jest```.
+**NOTE:** If you want jest tests to be part of the CI pipeline, you will need to update the test script in the package.json file to include ```yarn jest```.
 
 ### Bundle and Chunk management
 
