@@ -7138,7 +7138,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loader-utils@npm:^2.0.0, loader-utils@npm:~2.0.0":
+"loader-utils@npm:^2.0.0":
   version: 2.0.2
   resolution: "loader-utils@npm:2.0.2"
   dependencies:
@@ -8735,7 +8735,7 @@ __metadata:
     stylelint-config-prettier: ^9.0.3
     stylelint-config-recommended-scss: ^7.0.0
     stylelint-config-standard-scss: ^5.0.0
-    svg-url-loader: ^7.1.1
+    svg-url-loader: ^8.0.0
     swc-loader: ^0.2.3
     typescript: ^4.8.2
     web-vitals: ^3.0.1
@@ -9883,15 +9883,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svg-url-loader@npm:^7.1.1":
-  version: 7.1.1
-  resolution: "svg-url-loader@npm:7.1.1"
+"svg-url-loader@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "svg-url-loader@npm:8.0.0"
   dependencies:
     file-loader: ~6.2.0
-    loader-utils: ~2.0.0
   peerDependencies:
-    webpack: ^4.0.0 || ^5.0.0
-  checksum: 47c85d9a45ea5325ed5a21bd12e61f17eb2a438339965c6eb44a10fe86b6bf7f1488fa108c128f04f98a4e7d272c03a62dc1b89f5b083aaac1f18b455053d0c2
+    webpack: ^5.0.0
+  checksum: 265271f6a5c049705b554518ff1e8b62ea8336e6a563bfbe64aac0c32a10e603fb14a7954c4613e82f6d48aec655284bdeab21022f320e00cf525804175929ad
   languageName: node
   linkType: hard
 
