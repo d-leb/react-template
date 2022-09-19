@@ -21,7 +21,7 @@ export const buildWebpackConfig = (paths) => {
     performance: {
       hints: 'warning',
       maxAssetSize: 204800,
-      maxEntrypointSize: 376832,
+      maxEntrypointSize: 358400,
     },
     plugins: [...webpackBaseConfig.plugins, new CompressionPlugin()],
   }
