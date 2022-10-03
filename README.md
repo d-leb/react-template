@@ -203,6 +203,10 @@ Create an .env file to store your environment variables.
 - [Webpack](https://webpack.js.org/) - Static module bundler
 - [Yarn](https://yarnpkg.com/) - Package management
 
+## Sample APIs and Libraries
+
+- [meowfacts](https://github.com/wh-iterabb-it/meowfacts) - A simple api that returns a random fact about cats on a GET request
+
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
