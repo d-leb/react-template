@@ -40,7 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tanstack/react-query", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:4.3.9"],\
             ["@testing-library/react", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:13.4.0"],\
             ["@types/jest", "npm:29.0.1"],\
-            ["@types/mocha", "npm:9.1.1"],\
+            ["@types/mocha", "npm:10.0.0"],\
             ["@types/node", "npm:16.11.45"],\
             ["@types/react", "npm:18.0.16"],\
             ["@types/react-dom", "npm:18.0.6"],\
@@ -2504,10 +2504,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/mocha", [\
-        ["npm:9.1.1", {\
-          "packageLocation": "./.yarn/cache/@types-mocha-npm-9.1.1-9646576ed0-516077c0ac.zip/node_modules/@types/mocha/",\
+        ["npm:10.0.0", {\
+          "packageLocation": "./.yarn/cache/@types-mocha-npm-10.0.0-a2509f7d26-69e3896a63.zip/node_modules/@types/mocha/",\
           "packageDependencies": [\
-            ["@types/mocha", "npm:9.1.1"]\
+            ["@types/mocha", "npm:10.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10781,7 +10781,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tanstack/react-query", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:4.3.9"],\
             ["@testing-library/react", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:13.4.0"],\
             ["@types/jest", "npm:29.0.1"],\
-            ["@types/mocha", "npm:9.1.1"],\
+            ["@types/mocha", "npm:10.0.0"],\
             ["@types/node", "npm:16.11.45"],\
             ["@types/react", "npm:18.0.16"],\
             ["@types/react-dom", "npm:18.0.6"],\
