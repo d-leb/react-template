@@ -32,7 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@axe-core/react", "npm:4.4.4"],\
+            ["@axe-core/react", "npm:4.4.5"],\
             ["@stylelint/postcss-css-in-js", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.38.0"],\
             ["@swc/core", "npm:1.3.0"],\
             ["@swc/helpers", "npm:0.4.11"],\
@@ -118,10 +118,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@axe-core/react", [\
-        ["npm:4.4.4", {\
-          "packageLocation": "./.yarn/cache/@axe-core-react-npm-4.4.4-35849e1a2f-1328066d39.zip/node_modules/@axe-core/react/",\
+        ["npm:4.4.5", {\
+          "packageLocation": "./.yarn/cache/@axe-core-react-npm-4.4.5-f096f4dbc4-8a10b84c85.zip/node_modules/@axe-core/react/",\
           "packageDependencies": [\
-            ["@axe-core/react", "npm:4.4.4"],\
+            ["@axe-core/react", "npm:4.4.5"],\
             ["axe-core", "npm:4.4.3"],\
             ["requestidlecallback", "npm:0.3.0"]\
           ],\
@@ -10933,7 +10933,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["react-template", "workspace:."],\
-            ["@axe-core/react", "npm:4.4.4"],\
+            ["@axe-core/react", "npm:4.4.5"],\
             ["@stylelint/postcss-css-in-js", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.38.0"],\
             ["@swc/core", "npm:1.3.0"],\
             ["@swc/helpers", "npm:0.4.11"],\
