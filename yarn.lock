@@ -8394,6 +8394,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:^8.4.19":
+  version: 8.4.19
+  resolution: "postcss@npm:8.4.19"
+  dependencies:
+    nanoid: ^3.3.4
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 62782723a385f92b7525f66d29614624de7c5643855423db3a5efd9287e677650300192749adddbbb6734cea9b1d5f5fd4f6ea00ca3f9a95dbbb88f835f5ca64
+  languageName: node
+  linkType: hard
+
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
@@ -8754,7 +8765,7 @@ __metadata:
     jest-environment-jsdom: ^29.2.2
     mocha: ^10.1.0
     ora: ^6.1.2
-    postcss: ^8.4.16
+    postcss: ^8.4.19
     postcss-syntax: ^0.36.2
     prettier: ^2.7.1
     react: ^18.2.0

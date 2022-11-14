@@ -62,7 +62,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-environment-jsdom", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:29.3.0"],\
             ["mocha", "npm:10.1.0"],\
             ["ora", "npm:6.1.2"],\
-            ["postcss", "npm:8.4.16"],\
+            ["postcss", "npm:8.4.19"],\
             ["postcss-syntax", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.36.2"],\
             ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
@@ -1876,7 +1876,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.18.13"],\
             ["@types/postcss", null],\
             ["@types/postcss-syntax", null],\
-            ["postcss", "npm:8.4.16"],\
+            ["postcss", "npm:8.4.19"],\
             ["postcss-syntax", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.36.2"]\
           ],\
           "packagePeers": [\
@@ -10334,6 +10334,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["source-map-js", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:8.4.19", {\
+          "packageLocation": "./.yarn/cache/postcss-npm-8.4.19-164042496a-62782723a3.zip/node_modules/postcss/",\
+          "packageDependencies": [\
+            ["postcss", "npm:8.4.19"],\
+            ["nanoid", "npm:3.3.4"],\
+            ["picocolors", "npm:1.0.0"],\
+            ["source-map-js", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["postcss-media-query-parser", [\
@@ -10389,7 +10399,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["postcss-scss", "virtual:3180fb5c7ed6583354b65c151f1c6658087890ed589c10a758c0ac47f604b6a9de1cbcef9ba658b280498007273ea74bfb59971e2eaf5a0e12a26cba7e0bc956#npm:4.0.4"],\
             ["@types/postcss", null],\
-            ["postcss", "npm:8.4.16"]\
+            ["postcss", "npm:8.4.19"]\
           ],\
           "packagePeers": [\
             "@types/postcss",\
@@ -10449,7 +10459,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/postcss-less", null],\
             ["@types/postcss-markdown", null],\
             ["@types/postcss-scss", null],\
-            ["postcss", "npm:8.4.16"],\
+            ["postcss", "npm:8.4.19"],\
             ["postcss-html", null],\
             ["postcss-jsx", null],\
             ["postcss-less", null],\
@@ -10971,7 +10981,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-environment-jsdom", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:29.3.0"],\
             ["mocha", "npm:10.1.0"],\
             ["ora", "npm:6.1.2"],\
-            ["postcss", "npm:8.4.16"],\
+            ["postcss", "npm:8.4.19"],\
             ["postcss-syntax", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.36.2"],\
             ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
@@ -12193,7 +12203,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stylelint-config-recommended-scss", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:7.0.0"],\
             ["@types/postcss", null],\
             ["@types/stylelint", null],\
-            ["postcss", "npm:8.4.16"],\
+            ["postcss", "npm:8.4.19"],\
             ["postcss-scss", "virtual:3180fb5c7ed6583354b65c151f1c6658087890ed589c10a758c0ac47f604b6a9de1cbcef9ba658b280498007273ea74bfb59971e2eaf5a0e12a26cba7e0bc956#npm:4.0.4"],\
             ["stylelint", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:14.13.0"],\
             ["stylelint-config-recommended", "virtual:3180fb5c7ed6583354b65c151f1c6658087890ed589c10a758c0ac47f604b6a9de1cbcef9ba658b280498007273ea74bfb59971e2eaf5a0e12a26cba7e0bc956#npm:8.0.0"],\
@@ -12213,7 +12223,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stylelint-config-recommended-scss", "virtual:b3697579cfdd96fce780d83b3ba98dc06ada82866f6da9cc6cd6d6a3807b7ff5de79d153c863683c5c5ee8efd5b7d405a7670b0d39168bed3b36e817cfd683be#npm:8.0.0"],\
             ["@types/postcss", null],\
             ["@types/stylelint", null],\
-            ["postcss", "npm:8.4.16"],\
+            ["postcss", "npm:8.4.19"],\
             ["postcss-scss", "virtual:3180fb5c7ed6583354b65c151f1c6658087890ed589c10a758c0ac47f604b6a9de1cbcef9ba658b280498007273ea74bfb59971e2eaf5a0e12a26cba7e0bc956#npm:4.0.4"],\
             ["stylelint", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:14.13.0"],\
             ["stylelint-config-recommended", "virtual:cab8d4c63458ab4e857ef34af3db1e2dae22356de3cf3537930b3068ef4c1fa2bf6b72a0fd45c60db6fdedadbef78d3836075448f8ec8924deee754385e43f96#npm:9.0.0"],\
@@ -12265,7 +12275,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stylelint-config-standard-scss", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:6.0.0"],\
             ["@types/postcss", null],\
             ["@types/stylelint", null],\
-            ["postcss", "npm:8.4.16"],\
+            ["postcss", "npm:8.4.19"],\
             ["stylelint", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:14.13.0"],\
             ["stylelint-config-recommended-scss", "virtual:b3697579cfdd96fce780d83b3ba98dc06ada82866f6da9cc6cd6d6a3807b7ff5de79d153c863683c5c5ee8efd5b7d405a7670b0d39168bed3b36e817cfd683be#npm:8.0.0"],\
             ["stylelint-config-standard", "virtual:b3697579cfdd96fce780d83b3ba98dc06ada82866f6da9cc6cd6d6a3807b7ff5de79d153c863683c5c5ee8efd5b7d405a7670b0d39168bed3b36e817cfd683be#npm:29.0.0"]\
