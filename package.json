@@ -5,7 +5,7 @@
   "author": "David LeBlanc <github@david-leblanc.com>",
   "license": "MIT",
   "repository": "git@github.com:d-leb/react-template",
-  "packageManager": "yarn@3.2.3",
+  "packageManager": "yarn@3.2.4",
   "scripts": {
     "analyze": "node scripts/analyze.mjs",
     "build": "node scripts/build.mjs",
