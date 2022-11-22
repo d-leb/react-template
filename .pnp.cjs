@@ -27,7 +27,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@axe-core/react", "npm:4.4.5"],\
+            ["@axe-core/react", "npm:4.5.2"],\
             ["@stylelint/postcss-css-in-js", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.38.0"],\
             ["@swc/core", "npm:1.3.19"],\
             ["@swc/helpers", "npm:0.4.14"],\
@@ -113,11 +113,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@axe-core/react", [\
-        ["npm:4.4.5", {\
-          "packageLocation": "./.yarn/cache/@axe-core-react-npm-4.4.5-f096f4dbc4-8a10b84c85.zip/node_modules/@axe-core/react/",\
+        ["npm:4.5.2", {\
+          "packageLocation": "./.yarn/cache/@axe-core-react-npm-4.5.2-ea2383af13-24137565cf.zip/node_modules/@axe-core/react/",\
           "packageDependencies": [\
-            ["@axe-core/react", "npm:4.4.5"],\
-            ["axe-core", "npm:4.4.3"],\
+            ["@axe-core/react", "npm:4.5.2"],\
+            ["axe-core", "npm:4.5.2"],\
             ["requestidlecallback", "npm:0.3.0"]\
           ],\
           "linkType": "HARD"\
@@ -3978,6 +3978,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/axe-core-npm-4.4.3-6a07ed8cf6-c3ea000d9a.zip/node_modules/axe-core/",\
           "packageDependencies": [\
             ["axe-core", "npm:4.4.3"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:4.5.2", {\
+          "packageLocation": "./.yarn/cache/axe-core-npm-4.5.2-6c0c209d0c-4068f183b2.zip/node_modules/axe-core/",\
+          "packageDependencies": [\
+            ["axe-core", "npm:4.5.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -11015,7 +11022,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["react-template", "workspace:."],\
-            ["@axe-core/react", "npm:4.4.5"],\
+            ["@axe-core/react", "npm:4.5.2"],\
             ["@stylelint/postcss-css-in-js", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.38.0"],\
             ["@swc/core", "npm:1.3.19"],\
             ["@swc/helpers", "npm:0.4.14"],\
