@@ -47,7 +47,7 @@
     "react-responsive": "^9.0.0",
     "react-router-dom": "^6.4.2",
     "styled-components": "^5.3.6",
-    "web-vitals": "^3.0.3"
+    "web-vitals": "^3.1.0"
   },
   "devDependencies": {
     "@stylelint/postcss-css-in-js": "^0.38.0",
