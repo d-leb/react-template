@@ -4,7 +4,7 @@ A template for creating a new ReactJS project. It is a working project template,
 the ```.git``` directory. If you do not want to use the bundled Github automation scripts, you can delete the ```.github``` directory.
 
 Until SWC supports modules using yarn 3.x pnp resolution, SWC plugin support will require the node linker to be set to use node module resolution. This includes Jest testing as Jest uses the
-@swc/jest plugin when transforming. Instructions on enabling node module resolution can be found in the [Installing section](###-Installing) of this README.
+@swc/jest plugin when transforming. Instructions on enabling node module resolution can be found in the [Installing section](#installing) of this README.
 
 When using this template, please be sure to custom tailer it to your needs. For example, if you do not need global internationalization support used for text in a global template or your web app
 title and metadata, move the MessageProvider from the GlobalProviders to the individual page providers. This cause the internationalization module to be asynchronously loaded after the page template
@@ -116,7 +116,7 @@ If issues are found, you may try to automatically correct the issues.
 yarn stylelint:fix
 ```
 
-NOTE: Stylelint for this project template has been set up to follow a concentric pattern. Meaning that CSS properties are ordered by outer most properties first and movetoward the inner most
+NOTE: Stylelint for this project template has been set up to follow a concentric pattern. Meaning that CSS properties are ordered by outer most properties first and move toward the inner most
 properties. [Concentric CSS](https://rhodesmill.org/brandon/2011/concentric-css/)
 
 Code formatting can be manually verified using prettier.
@@ -145,14 +145,14 @@ You can manually check TypeScript types and syntax.
 yarn tsc
 ```
 
-Manually run Jest tests that include react component (integration level) and axe (accessibility) test. NOTE: This requires SWC plugin support. See [Installing section](###-Installing) for enabling 
+Manually run Jest tests that include react component (integration level) and axe (accessibility) test. NOTE: This requires SWC plugin support. See [Installing section](#installing) for enabling 
 node module resolution if you haven't already.
 
 ```
 yarn jest
 ```
 
-**NOTE:** If you want jest tests to be part of the CI pipeline, you will need to update the test script in the package.json file to include ```yarn jest```.
+**NOTE:** If you want jest tests to be run locally as part of the review, you will need to update the test script in the package.json file to include ```yarn jest```.
 
 ### Bundle and Chunk management
 
