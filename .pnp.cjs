@@ -61,7 +61,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["imports-loader", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:4.0.1"],\
             ["jest", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:29.3.1"],\
             ["jest-environment-jsdom", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:29.3.1"],\
-            ["mocha", "npm:10.1.0"],\
+            ["mocha", "npm:10.2.0"],\
             ["ora", "npm:6.1.2"],\
             ["postcss", "npm:8.4.19"],\
             ["postcss-syntax", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.36.2"],\
@@ -5204,10 +5204,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:206792a93c0a25534511a88cb4911c3e1773dcf4ae12e4b97c5d7f4ec423c9b472f827821fe82158c9e8e54dc3e54455a8deb5f0adfd4a50ea80ee1ce22134cc#npm:4.3.4", {\
-          "packageLocation": "./.yarn/__virtual__/debug-virtual-24291acaca/0/cache/debug-npm-4.3.4-4513954577-3dbad3f94e.zip/node_modules/debug/",\
+        ["virtual:87db25c7c5e6b25bbc12571091cdabc648b79d427ab445d1714ccfdcdfb3265c9de6561ca760cc3de470037cbedf3af4be56ba3b684b3a1c01d4c9c2fd55a741#npm:4.3.4", {\
+          "packageLocation": "./.yarn/__virtual__/debug-virtual-762d08cbe9/0/cache/debug-npm-4.3.4-4513954577-3dbad3f94e.zip/node_modules/debug/",\
           "packageDependencies": [\
-            ["debug", "virtual:206792a93c0a25534511a88cb4911c3e1773dcf4ae12e4b97c5d7f4ec423c9b472f827821fe82158c9e8e54dc3e54455a8deb5f0adfd4a50ea80ee1ce22134cc#npm:4.3.4"],\
+            ["debug", "virtual:87db25c7c5e6b25bbc12571091cdabc648b79d427ab445d1714ccfdcdfb3265c9de6561ca760cc3de470037cbedf3af4be56ba3b684b3a1c01d4c9c2fd55a741#npm:4.3.4"],\
             ["@types/supports-color", null],\
             ["ms", "npm:2.1.2"],\
             ["supports-color", "npm:8.1.1"]\
@@ -9621,14 +9621,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mocha", [\
-        ["npm:10.1.0", {\
-          "packageLocation": "./.yarn/cache/mocha-npm-10.1.0-206792a93c-c64c730576.zip/node_modules/mocha/",\
+        ["npm:10.2.0", {\
+          "packageLocation": "./.yarn/cache/mocha-npm-10.2.0-87db25c7c5-406c45eab1.zip/node_modules/mocha/",\
           "packageDependencies": [\
-            ["mocha", "npm:10.1.0"],\
+            ["mocha", "npm:10.2.0"],\
             ["ansi-colors", "npm:4.1.1"],\
             ["browser-stdout", "npm:1.3.1"],\
             ["chokidar", "npm:3.5.3"],\
-            ["debug", "virtual:206792a93c0a25534511a88cb4911c3e1773dcf4ae12e4b97c5d7f4ec423c9b472f827821fe82158c9e8e54dc3e54455a8deb5f0adfd4a50ea80ee1ce22134cc#npm:4.3.4"],\
+            ["debug", "virtual:87db25c7c5e6b25bbc12571091cdabc648b79d427ab445d1714ccfdcdfb3265c9de6561ca760cc3de470037cbedf3af4be56ba3b684b3a1c01d4c9c2fd55a741#npm:4.3.4"],\
             ["diff", "npm:5.0.0"],\
             ["escape-string-regexp", "npm:4.0.0"],\
             ["find-up", "npm:5.0.0"],\
@@ -11054,7 +11054,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["imports-loader", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:4.0.1"],\
             ["jest", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:29.3.1"],\
             ["jest-environment-jsdom", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:29.3.1"],\
-            ["mocha", "npm:10.1.0"],\
+            ["mocha", "npm:10.2.0"],\
             ["ora", "npm:6.1.2"],\
             ["postcss", "npm:8.4.19"],\
             ["postcss-syntax", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.36.2"],\
